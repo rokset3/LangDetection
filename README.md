@@ -14,7 +14,7 @@ There are other two scripts:
 
 dataprep.py - to collect all datasets into final training dataset
 
-train.py - trains model with .20 test_size via Multinomial Naive Bayes classifier with default tuning on dataset created by dataprep.py
+train.py - trains model with .20 test_size via TfidVectorizer (n_grams = [1, 3]) Multinomial Naive Bayes classifier with default tuning on dataset created by dataprep.py
 
 Datasets have not been uplodaded due to size, but they can be accessed, as I uploaded them to Drive (PM if you are interested)
 
