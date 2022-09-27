@@ -19,5 +19,9 @@ train.py - trains model with .20 test_size via Multinomial Naive Bayes classifie
 Datasets have not been uplodaded due to size, but they can be accessed, as I uploaded them to Drive (PM if you are interested)
 
 Used datasets:
-
+1) KSC (published by ISSAI open-source kazakh speech corpus dataset)
+2) Rus Parsed from wikipedia articles
+3) Kaz parsed from wikipedia articles
+4) Russian Jokes dataset (https://github.com/Koziev/NLP_Datasets)
+5) Parsed from (http://testent.ru/load/ucheniku/kazakhskij_jazyk/audio_dialogi_na_kazahskom_jazyke_s_perevodom/26-1-0-3871) Ru \& Kaz dialogue dataset
   
