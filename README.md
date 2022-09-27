@@ -18,6 +18,8 @@ train.py - trains model with .20 test_size via TfidVectorizer (n_grams = [1, 3])
 
 Datasets have not been uplodaded due to size, but they can be accessed, as I uploaded them to Drive (PM if you are interested)
 
+With my own dataset, I achieved 99% F1 score. But my dataset consist mostly of long sentences, which are benefitial to detection. Also, on single words such as 'Да', detection classifies them as 'Kazakh', since in Kazakh language there are a lot of '-да' endings in the word. There are also several things which can be improved.
+
 Used datasets:
 1) KSC (published by ISSAI open-source kazakh speech corpus dataset)
 2) Rus Parsed from wikipedia articles
